@@ -22,7 +22,7 @@ You will need to do this separately for Windows PowerShell and PowerShell unless
 
 To show a progress indicator inside the taskbar button that represents your running PowerShell script, set a value between 0 and 100. This sets the progress bar to 50%
 
-´``powershell
+```powershell
 Set-PsoProgressButtonValue -CurrentValue 50
 ```
 
