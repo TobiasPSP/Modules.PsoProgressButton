@@ -26,6 +26,7 @@
             .LINK
             https://github.com/TobiasPSP/Modules.PsoProgressButton
     #>
+    [Alias('Set-StateButton')]
     param
     (
         [Parameter(Mandatory)]
