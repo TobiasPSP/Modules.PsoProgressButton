@@ -1,6 +1,6 @@
 # Controlling Taskbar Button Animations
 
-On the Windows platform, beginning with Windows 7 the shell introduced taskbar button animations.
+On the Windows platform, beginning with Windows 7 the shell has introduced taskbar button animations.
 
 Taskbar buttons can show progress state, an indeterminate progress bar, and colors for interruptions (orange) and error (red).
 
