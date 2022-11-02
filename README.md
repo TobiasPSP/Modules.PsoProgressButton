@@ -32,7 +32,7 @@ Set-PsoProgressButtonValue -CurrentValue 50
 To hide the progress indicator and revert button state to normal, change button state like this:
 
 ```powershell
-Set-PsoButtonProgressState -ProgressState NoProgress
+Set-PsoProgressButtonState -ProgressState NoProgress
 ```
 
 ## Indeterminate Progressbar
@@ -40,7 +40,7 @@ Set-PsoButtonProgressState -ProgressState NoProgress
 For situations where you don't know the exact progress and would like to just show a "busy" indicator, turn on the indeterminate progress bar:
 
 ```powershell
-Set-PsoButtonProgressState -ProgressState Indeterminate
+Set-PsoProgressButtonState -ProgressState Indeterminate
 ```
 
 ## Indicating Error State
@@ -48,7 +48,7 @@ Set-PsoButtonProgressState -ProgressState Indeterminate
 If something went wrong and you would like to indicate error state, run this:
 
 ```powershell
-Set-PsoButtonProgressState -ProgressState Error
+Set-PsoProgressButtonState -ProgressState Error
 ```
 
 The width of the progress bar depends on its current value. For indeterminate progress bars, only a small column may be shown. You can always manually change the progress bar value to show "more red":
@@ -62,7 +62,7 @@ Set-PsoProgressButtonValue -CurrentValue 100
 If your script was interrupted but might be able to resume, i.e. because it is waiting for a user interaction, run this:
 
 ```powershell
-Set-PsoButtonProgressState -ProgressState Paused
+Set-PsoProgressButtonState -ProgressState Paused
 ```
 
 ## Back to Normal
@@ -71,7 +71,7 @@ To revert any visual clues and change the takbar button appearance back to norma
 
 ```powershell
 Set-PsoProgressButtonValue -CurrentValue 0
-Set-PsoButtonProgressState -ProgressState NoProgress
+Set-PsoProgressButtonState -ProgressState NoProgress
 ```
 
 ## Important Notes
