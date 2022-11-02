@@ -26,6 +26,7 @@ To show a progress indicator inside the taskbar button that represents your runn
 Set-PsoProgressButtonValue -CurrentValue 50
 ```
 
+
 ## Turning Off Progress Indicator
 
 To hide the progress indicator and revert button state to normal, change button state like this:
