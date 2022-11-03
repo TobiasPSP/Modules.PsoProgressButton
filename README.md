@@ -8,6 +8,9 @@ Wouldn't it be nice to use these visual clues for PowerShell scripts as well? Wh
 
 With this module, you can add these things easily for *Windows PowerShell* and *PowerShell* - as long as you run your scripts on the Windows platform.
 
+**Note:** for the commands below to work, you need to run your code inside ISE, powershell.exe or pwsh.exe directly. When you run your code within a console that is embedded in **Windows Terminal** or **VSCode**, the original console window and its taskbar button is invisible and thus inaccessible. In these cases you would receive an exception stating that the window handle is invalid.
+
+
 ## Installing Module
 
 Run this to download the module from the [PowerShell Gallery](https://www.powershellgallery.com/packages/PsoProgressButton) and install it:
