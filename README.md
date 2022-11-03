@@ -77,3 +77,6 @@ Set-PsoProgressButtonState -ProgressState NoProgress
 ## Important Notes
 
 These commands work for both **Windows PowerShell** and **PowerShell**, however they only work when running your scripts on the **Windows Operating System**.
+
+The commands **will not work** either when you run the console windows from within **Windows Terminal**: in this case, Windows is hiding the original console windows and their taskbar buttons so the window handle would always be 0, and the commands would not find the taskbar buttons to change.
+
