@@ -10,7 +10,9 @@ With this module, you can add these things easily for *Windows PowerShell* and *
 
 **Note:** for the commands below to work, you need to run your code inside ISE, powershell.exe or pwsh.exe directly. When you run your code within a console that is embedded in **Windows Terminal** or **VSCode**, the original console window and its taskbar button is invisible and thus inaccessible. In these cases you would receive an exception stating that the window handle is invalid.
 
-On **Windows 11**, apparently all consoles now are automatically embedded into **Windows Terminal** thus taskbar buttons are not accessible. If anyone knows how to easily run a stand-alone workhorse PowerShell script in its own console on **Windows 11**, please leave a comment. 
+> It seems that the APIs used in this module are not yet supported in .NET Core/PowerShell 7. If you run into issues, try installing and using the module from within ***Windows** PowerShell* (powershell.exe).
+>
+> On **Windows 11**, apparently all consoles now are automatically embedded into **Windows Terminal** thus taskbar buttons are not accessible. If anyone knows how to easily run a stand-alone workhorse PowerShell script in its own console on **Windows 11**, please leave a comment. 
 
 
 ## Installing Module
